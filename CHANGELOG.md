@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](http://semver.org).
 
+## [v2.0.0](https://github.com/puppetlabs/puppetlabs-resource/tree/v2.0.0) (2021-02-27)
+
+[Full Changelog](https://github.com/puppetlabs/puppetlabs-resource/compare/v1.1.0...v2.0.0)
+
+### Changed
+
+- pdksync - Remove Puppet 5 from testing and bump minimal version to 6.0.0 [\#111](https://github.com/puppetlabs/puppetlabs-resource/pull/111) ([carabasdaniel](https://github.com/carabasdaniel))
+
+### Added
+
+- pdksync - \(feat\) - Add support for Puppet 7 [\#108](https://github.com/puppetlabs/puppetlabs-resource/pull/108) ([daianamezdrea](https://github.com/daianamezdrea))
+- pdksync - \(IAC-973\) - Update travis/appveyor to run on new default branch `main` [\#100](https://github.com/puppetlabs/puppetlabs-resource/pull/100) ([david22swan](https://github.com/david22swan))
+
 ## [v1.1.0](https://github.com/puppetlabs/puppetlabs-resource/tree/v1.1.0) (2019-12-09)
 
 [Full Changelog](https://github.com/puppetlabs/puppetlabs-resource/compare/v1.0.0...v1.1.0)
@@ -17,6 +30,7 @@ All notable changes to this project will be documented in this file. The format 
 ### Changed
 
 - pdksync - FM-8499 remove ubuntu 14 support [\#73](https://github.com/puppetlabs/puppetlabs-resource/pull/73) ([lionce](https://github.com/lionce))
+- pdksync - \(MODULES-8444\) - Raise lower Puppet bound [\#51](https://github.com/puppetlabs/puppetlabs-resource/pull/51) ([david22swan](https://github.com/david22swan))
 
 ### Added
 
@@ -25,10 +39,6 @@ All notable changes to this project will be documented in this file. The format 
 ## [v0.4.0](https://github.com/puppetlabs/puppetlabs-resource/tree/v0.4.0) (2019-09-26)
 
 [Full Changelog](https://github.com/puppetlabs/puppetlabs-resource/compare/0.3.1...v0.4.0)
-
-### Changed
-
-- pdksync - \(MODULES-8444\) - Raise lower Puppet bound [\#51](https://github.com/puppetlabs/puppetlabs-resource/pull/51) ([david22swan](https://github.com/david22swan))
 
 ### Added
 
